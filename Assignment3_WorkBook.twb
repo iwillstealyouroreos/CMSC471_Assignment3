@@ -1,0 +1,1864 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all' inline='true' name='federated.0wkoaeu0r86ydd10jyqfl0berzzw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all' name='textscan.1p1q9be1ymj2wn1ed1o6e1lvf9lg'>
+            <connection class='textscan' directory='/Users/jonathanhale/Downloads' filename='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1p1q9be1ymj2wn1ed1o6e1lvf9lg' name='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv' table='[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='STRUCTURE' ordinal='0' />
+            <column datatype='string' name='STRUCTURE_ID' ordinal='1' />
+            <column datatype='string' name='STRUCTURE_NAME' ordinal='2' />
+            <column datatype='string' name='ACTION' ordinal='3' />
+            <column datatype='string' name='REF_AREA' ordinal='4' />
+            <column datatype='string' name='Reference area' ordinal='5' />
+            <column datatype='string' name='FREQ' ordinal='6' />
+            <column datatype='string' name='Frequency of observation' ordinal='7' />
+            <column datatype='string' name='POLLUTANT' ordinal='8' />
+            <column datatype='string' name='Pollutant' ordinal='9' />
+            <column datatype='string' name='MEASURE' ordinal='10' />
+            <column datatype='string' name='Measure' ordinal='11' />
+            <column datatype='string' name='UNIT_MEASURE' ordinal='12' />
+            <column datatype='string' name='Unit of measure' ordinal='13' />
+            <column datatype='integer' name='TIME_PERIOD' ordinal='14' />
+            <column datatype='string' name='Time period' ordinal='15' />
+            <column datatype='real' name='OBS_VALUE' ordinal='16' />
+            <column datatype='string' name='Observation value' ordinal='17' />
+            <column datatype='string' name='OBS_STATUS' ordinal='18' />
+            <column datatype='string' name='Observation status' ordinal='19' />
+            <column datatype='integer' name='UNIT_MULT' ordinal='20' />
+            <column datatype='string' name='Unit multiplier' ordinal='21' />
+            <column datatype='string' name='PRICE_BASE' ordinal='22' />
+            <column datatype='string' name='Price base' ordinal='23' />
+            <column datatype='integer' name='BASE_PER' ordinal='24' />
+            <column datatype='string' name='Base period' ordinal='25' />
+            <column datatype='integer' name='DECIMALS' ordinal='26' />
+            <column datatype='string' name='Decimals' ordinal='27' />
+            <column datatype='string' name='CONVERSION_TYPE' ordinal='28' />
+            <column datatype='string' name='Conversion type' ordinal='29' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STRUCTURE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STRUCTURE]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>STRUCTURE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STRUCTURE_ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STRUCTURE_ID]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>STRUCTURE_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STRUCTURE_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STRUCTURE_NAME]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>STRUCTURE_NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACTION]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>ACTION</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REF_AREA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REF_AREA]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>REF_AREA</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reference area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reference area]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Reference area</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FREQ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FREQ]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>FREQ</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Frequency of observation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Frequency of observation]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Frequency of observation</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POLLUTANT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[POLLUTANT]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>POLLUTANT</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pollutant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pollutant]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Pollutant</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEASURE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MEASURE]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>MEASURE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Measure]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Measure</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_MEASURE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UNIT_MEASURE]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>UNIT_MEASURE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit of measure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unit of measure]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Unit of measure</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME_PERIOD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TIME_PERIOD]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>TIME_PERIOD</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Time period]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Time period</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBS_VALUE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OBS_VALUE]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>OBS_VALUE</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Observation value</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Observation value]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Observation value</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBS_STATUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OBS_STATUS]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>OBS_STATUS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Observation status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Observation status]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Observation status</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_MULT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UNIT_MULT]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>UNIT_MULT</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit multiplier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unit multiplier]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Unit multiplier</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRICE_BASE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRICE_BASE]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>PRICE_BASE</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price base</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Price base]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Price base</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BASE_PER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BASE_PER]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>BASE_PER</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Base period]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Base period</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DECIMALS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DECIMALS]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>DECIMALS</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Decimals</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Decimals]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Decimals</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONVERSION_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONVERSION_TYPE]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>CONVERSION_TYPE</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conversion type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Conversion type]</local-name>
+            <parent-name>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv]</parent-name>
+            <remote-alias>Conversion type</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Action' datatype='string' name='[ACTION]' role='dimension' type='nominal' />
+      <column caption='Base Per' datatype='integer' name='[BASE_PER]' role='measure' type='quantitative' />
+      <column caption='Conversion Type' datatype='string' name='[CONVERSION_TYPE]' role='dimension' type='nominal' />
+      <column caption='Decimals' datatype='integer' name='[DECIMALS]' role='measure' type='quantitative' />
+      <column caption='Decimals1' datatype='string' name='[Decimals]' role='dimension' type='nominal' />
+      <column caption='Freq' datatype='string' name='[FREQ]' role='dimension' type='nominal' />
+      <column caption='Measure' datatype='string' name='[MEASURE]' role='dimension' type='nominal' />
+      <column caption='Measure1' datatype='string' name='[Measure]' role='dimension' type='nominal' />
+      <column caption='Obs Status' datatype='string' name='[OBS_STATUS]' role='dimension' type='nominal' />
+      <column caption='Obs Value' datatype='real' name='[OBS_VALUE]' role='measure' type='quantitative' />
+      <column caption='Pollutant' datatype='string' name='[POLLUTANT]' role='dimension' type='nominal' />
+      <column caption='Price Base' datatype='string' name='[PRICE_BASE]' role='dimension' type='nominal' />
+      <column caption='Pollutant1' datatype='string' name='[Pollutant]' role='dimension' type='nominal' />
+      <column caption='Ref Area' datatype='string' name='[REF_AREA]' role='dimension' type='nominal' />
+      <column caption='Structure' datatype='string' name='[STRUCTURE]' role='dimension' type='nominal' />
+      <column caption='Structure Id' datatype='string' name='[STRUCTURE_ID]' role='dimension' type='nominal' />
+      <column caption='Structure Name' datatype='string' name='[STRUCTURE_NAME]' role='dimension' type='nominal' />
+      <column caption='Time Period' datatype='integer' name='[TIME_PERIOD]' role='measure' type='quantitative' />
+      <column caption='Unit Measure' datatype='string' name='[UNIT_MEASURE]' role='dimension' type='nominal' />
+      <column caption='Unit Mult' datatype='integer' name='[UNIT_MULT]' role='measure' type='quantitative' />
+      <column caption='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv' datatype='table' name='[__tableau_internal_object_id__].[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/m_/gpksm04x2_50l2czftlb5llm0000gn/T/tableau-temp/#TableauTemp_1qo4sws006by2r1b6wd3u1d4m9rz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/06/2025 09:10:50 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[ACTION]' value='[Extract].[ACTION]' />
+            <map key='[BASE_PER]' value='[Extract].[BASE_PER]' />
+            <map key='[Base period]' value='[Extract].[Base period]' />
+            <map key='[CONVERSION_TYPE]' value='[Extract].[CONVERSION_TYPE]' />
+            <map key='[Conversion type]' value='[Extract].[Conversion type]' />
+            <map key='[DECIMALS]' value='[Extract].[DECIMALS]' />
+            <map key='[Decimals]' value='[Extract].[Decimals1]' />
+            <map key='[FREQ]' value='[Extract].[FREQ]' />
+            <map key='[Frequency of observation]' value='[Extract].[Frequency of observation]' />
+            <map key='[MEASURE]' value='[Extract].[MEASURE]' />
+            <map key='[Measure]' value='[Extract].[Measure1]' />
+            <map key='[OBS_STATUS]' value='[Extract].[OBS_STATUS]' />
+            <map key='[OBS_VALUE]' value='[Extract].[OBS_VALUE]' />
+            <map key='[Observation status]' value='[Extract].[Observation status]' />
+            <map key='[Observation value]' value='[Extract].[Observation value]' />
+            <map key='[POLLUTANT]' value='[Extract].[POLLUTANT]' />
+            <map key='[PRICE_BASE]' value='[Extract].[PRICE_BASE]' />
+            <map key='[Pollutant]' value='[Extract].[Pollutant1]' />
+            <map key='[Price base]' value='[Extract].[Price base]' />
+            <map key='[REF_AREA]' value='[Extract].[REF_AREA]' />
+            <map key='[Reference area]' value='[Extract].[Reference area]' />
+            <map key='[STRUCTURE]' value='[Extract].[STRUCTURE]' />
+            <map key='[STRUCTURE_ID]' value='[Extract].[STRUCTURE_ID]' />
+            <map key='[STRUCTURE_NAME]' value='[Extract].[STRUCTURE_NAME]' />
+            <map key='[TIME_PERIOD]' value='[Extract].[TIME_PERIOD]' />
+            <map key='[Time period]' value='[Extract].[Time period]' />
+            <map key='[UNIT_MEASURE]' value='[Extract].[UNIT_MEASURE]' />
+            <map key='[UNIT_MULT]' value='[Extract].[UNIT_MULT]' />
+            <map key='[Unit multiplier]' value='[Extract].[Unit multiplier]' />
+            <map key='[Unit of measure]' value='[Extract].[Unit of measure]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>STRUCTURE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STRUCTURE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STRUCTURE</remote-alias>
+              <ordinal>0</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STRUCTURE_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STRUCTURE_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STRUCTURE_ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STRUCTURE_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STRUCTURE_NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STRUCTURE_NAME</remote-alias>
+              <ordinal>2</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ACTION</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ACTION]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ACTION</remote-alias>
+              <ordinal>3</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>REF_AREA</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[REF_AREA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>REF_AREA</remote-alias>
+              <ordinal>4</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reference area</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Reference area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reference area</remote-alias>
+              <ordinal>5</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FREQ</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FREQ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FREQ</remote-alias>
+              <ordinal>6</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Frequency of observation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Frequency of observation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Frequency of observation</remote-alias>
+              <ordinal>7</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POLLUTANT</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[POLLUTANT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POLLUTANT</remote-alias>
+              <ordinal>8</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pollutant1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pollutant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pollutant1</remote-alias>
+              <ordinal>9</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MEASURE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[MEASURE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MEASURE</remote-alias>
+              <ordinal>10</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Measure1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Measure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Measure1</remote-alias>
+              <ordinal>11</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>UNIT_MEASURE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[UNIT_MEASURE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UNIT_MEASURE</remote-alias>
+              <ordinal>12</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit of measure</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unit of measure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit of measure</remote-alias>
+              <ordinal>13</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TIME_PERIOD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TIME_PERIOD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TIME_PERIOD</remote-alias>
+              <ordinal>14</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time period</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Time period]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time period</remote-alias>
+              <ordinal>15</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OBS_VALUE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OBS_VALUE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OBS_VALUE</remote-alias>
+              <ordinal>16</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53733</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Observation value</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Observation value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Observation value</remote-alias>
+              <ordinal>17</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OBS_STATUS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OBS_STATUS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OBS_STATUS</remote-alias>
+              <ordinal>18</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Observation status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Observation status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Observation status</remote-alias>
+              <ordinal>19</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>UNIT_MULT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[UNIT_MULT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UNIT_MULT</remote-alias>
+              <ordinal>20</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit multiplier</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unit multiplier]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit multiplier</remote-alias>
+              <ordinal>21</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRICE_BASE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PRICE_BASE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRICE_BASE</remote-alias>
+              <ordinal>22</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price base</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Price base]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price base</remote-alias>
+              <ordinal>23</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BASE_PER</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BASE_PER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BASE_PER</remote-alias>
+              <ordinal>24</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Base period</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Base period]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Base period</remote-alias>
+              <ordinal>25</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DECIMALS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DECIMALS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DECIMALS</remote-alias>
+              <ordinal>26</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Decimals1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Decimals]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Decimals1</remote-alias>
+              <ordinal>27</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CONVERSION_TYPE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CONVERSION_TYPE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CONVERSION_TYPE</remote-alias>
+              <ordinal>28</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Conversion type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Conversion type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Conversion type</remote-alias>
+              <ordinal>29</ordinal>
+              <family>OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv' id='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv_ACF3FCE057554730BB50C5E2E808C6E3'>
+            <properties context=''>
+              <relation connection='textscan.1p1q9be1ymj2wn1ed1o6e1lvf9lg' name='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all.csv' table='[OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='STRUCTURE' ordinal='0' />
+                  <column datatype='string' name='STRUCTURE_ID' ordinal='1' />
+                  <column datatype='string' name='STRUCTURE_NAME' ordinal='2' />
+                  <column datatype='string' name='ACTION' ordinal='3' />
+                  <column datatype='string' name='REF_AREA' ordinal='4' />
+                  <column datatype='string' name='Reference area' ordinal='5' />
+                  <column datatype='string' name='FREQ' ordinal='6' />
+                  <column datatype='string' name='Frequency of observation' ordinal='7' />
+                  <column datatype='string' name='POLLUTANT' ordinal='8' />
+                  <column datatype='string' name='Pollutant' ordinal='9' />
+                  <column datatype='string' name='MEASURE' ordinal='10' />
+                  <column datatype='string' name='Measure' ordinal='11' />
+                  <column datatype='string' name='UNIT_MEASURE' ordinal='12' />
+                  <column datatype='string' name='Unit of measure' ordinal='13' />
+                  <column datatype='integer' name='TIME_PERIOD' ordinal='14' />
+                  <column datatype='string' name='Time period' ordinal='15' />
+                  <column datatype='real' name='OBS_VALUE' ordinal='16' />
+                  <column datatype='string' name='Observation value' ordinal='17' />
+                  <column datatype='string' name='OBS_STATUS' ordinal='18' />
+                  <column datatype='string' name='Observation status' ordinal='19' />
+                  <column datatype='integer' name='UNIT_MULT' ordinal='20' />
+                  <column datatype='string' name='Unit multiplier' ordinal='21' />
+                  <column datatype='string' name='PRICE_BASE' ordinal='22' />
+                  <column datatype='string' name='Price base' ordinal='23' />
+                  <column datatype='integer' name='BASE_PER' ordinal='24' />
+                  <column datatype='string' name='Base period' ordinal='25' />
+                  <column datatype='integer' name='DECIMALS' ordinal='26' />
+                  <column datatype='string' name='Decimals' ordinal='27' />
+                  <column datatype='string' name='CONVERSION_TYPE' ordinal='28' />
+                  <column datatype='string' name='Conversion type' ordinal='29' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Black Hat (After)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Black Hat Visualization</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all' name='federated.0wkoaeu0r86ydd10jyqfl0berzzw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wkoaeu0r86ydd10jyqfl0berzzw'>
+            <column caption='Obs Value' datatype='real' name='[OBS_VALUE]' role='measure' type='quantitative' />
+            <column caption='Time Period' datatype='integer' name='[TIME_PERIOD]' role='measure' type='quantitative' />
+            <column-instance column='[OBS_VALUE]' derivation='Avg' name='[avg:OBS_VALUE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME_PERIOD]' derivation='None' name='[none:TIME_PERIOD:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[avg:OBS_VALUE:qk]' field-type='quantitative' max='10000000.0' min='-10000000.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b23e54' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[avg:OBS_VALUE:qk]</rows>
+        <cols>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[none:TIME_PERIOD:qk]</cols>
+      </table>
+      <simple-id uuid='{7E7CA312-DD63-4E09-BAE2-E01FF4176366}' />
+    </worksheet>
+    <worksheet name='Black Hat (Before)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Black Hat Visualization</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='OECD.ENV.EPI,DSD_AIR_GHG@DF_AIR_GHG,+all' name='federated.0wkoaeu0r86ydd10jyqfl0berzzw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wkoaeu0r86ydd10jyqfl0berzzw'>
+            <column caption='Obs Value' datatype='real' name='[OBS_VALUE]' role='measure' type='quantitative' />
+            <column caption='Time Period' datatype='integer' name='[TIME_PERIOD]' role='measure' type='quantitative' />
+            <column-instance column='[OBS_VALUE]' derivation='Avg' name='[avg:OBS_VALUE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME_PERIOD]' derivation='None' name='[none:TIME_PERIOD:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[avg:OBS_VALUE:qk]' field-type='quantitative' max='132303.00382513137' min='-132000.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b23e54' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[avg:OBS_VALUE:qk]</rows>
+        <cols>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[none:TIME_PERIOD:qk]</cols>
+      </table>
+      <simple-id uuid='{AFE9E5E4-9828-4BB0-9CDC-EDC0FB04A274}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Black Hat (After)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[none:TIME_PERIOD:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{90CA005C-E13F-48F5-9CF8-25E1963EE180}' />
+    </window>
+    <window class='worksheet' name='Black Hat (Before)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='vertical'>
+              <node-reference>
+                <axis>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[avg:OBS_VALUE:qk]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wkoaeu0r86ydd10jyqfl0berzzw].[none:TIME_PERIOD:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{64CC4C6C-37B9-4727-8EBC-673CE66A117A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Black Hat (After)' width='384'>
+      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
+      eyoqKnDgwAFUVlba0UQiolnP1iMASZKwfv16dHR0QJZlFBYWwjRNpKenIzk5GU8//TQCgQB8
+      Pp9tCUlENFvZGgAAIMvypD1/WZatQ7L09HQAQHJysi1tIyKazbhbTUTkUAwAIiKHYgAQETkU
+      A4CIyKEYAEREDsUAICJyKAYAEZFDMQCIiByKAUBE5FAMACIih2IAEBE5FAOAiMihGABERA7F
+      ACAicigGABGRQzEAiIgcigFARORQDAAiIodiABARORQDgIjIoRgAREQOxQAgInIoBgARkUMx
+      AIiIHIoBQETkUAwAIiKHsj0AdF1He3s7hoeHIYSAYRjW3wAghEAwGISu6za3lIhodrE1AAzD
+      wObNm9HR0YH3338f58+fR19fH37+858jGAwCAEZHR/Hss8+itbXVzqYSEc06LjuLCyHgdrtx
+      xx13IC8vD+3t7cjOzkZ1dTXq6uqwbt061NfXY/HixZ/6GaZpTqv+dIa/Eeysb/f4CyFsbwNg
+      7zxwev2J+S9Jkm1tuB3G3y62BEAkEkE8HofP50NWVhZeeuklRCIRfP3rX4eqqsjJyUFvby9M
+      00RXVxdKSkqsYTVNsyaYEGJaC45pmtA0bdrjM5Pr67pu28pn98IP3B7zwMn1DYE0wK8AABWB
+      SURBVMOAaZq2LQd2j7/d66AtAdDe3o6uri4sWrQIo6Oj+OY3v4nBwUEcO3YM1dXVkGUZeXl5
+      aGhogN/vh8v1cTPdbrf1t67rk16biom9z6SkpGmPT6JM07S1vqqqcLvdkGV7egINw4BhGPB4
+      PLbUB+yfB06vH4/HoSgKFEWxpb7d42/3OmhL1UWLFmHdunXIzMzEyMgI+vv70dbWNmljvmTJ
+      Emzfvh2VlZV2NJGIaNaz9RxAUlISHnnkEVy8eBFpaWm4//77oWkaFi5ciPT0dDz88MMoKChA
+      cnKyrXuJRESzka0BIEkScnNzkZubaz3ncrng9XoBABUVFQCArKwsW9pHRDSb2X4dABER2YMB
+      QETkUAwAIiKHYgAQETkUA4CIyKEYAEREDsUAICJyKAYAEZFDMQCIiByKAUBE5FAMACIih2IA
+      EBE5FAOAiMihGABERA7FACAicigGABGRQzEAiIgcigFARORQDAAiIodiABARORQDgIjIoW55
+      AAghEIvFJj0OBoNQVRUAYJomotHopGFisRhM07yl7SQimu1uaQCMjIzgrbfewhtvvAFgfONf
+      U1ODDz/8EFu2bEEwGER/fz9+/vOfY2xsDAAwNjaG5557Du3t7beyqUREs94tDQBVVXHvvfci
+      OTkZAGAYBrq7u/Hwww9j3bp1qK2thWmaKC8vx5kzZwAADQ0NKCoqgq7rt7KpRESznutmFxBC
+      QAgBAMjNzZ30WjweR2pqKiRJQmZmJsLhMACguLgYXV1dEEKgtbUVZWVlN7uZRESOc9OPAEZH
+      R7F9+3acPn36mtcURbH27HVdh6Io442SZaSnp6O9vR1JSUnweDw3u5lERI5z0wMgEAjgscce
+      wx133IF4PI6xsTFomoaxsTEoioJIJIJgMIizZ8+ipKTEGm7JkiXYtm0bFi1adLObSETkSLf0
+      HEBrayuOHTuG9PR0HDt2DPF4HBs2bMCHH34IAFi8eDFSU1NRUlKCnJwcVFdXo6SkBAUFBcjI
+      yLiVTSUimvUkMdFBPwPpug6XK7HTGEIIqKpqnZC2QzQahdfrta2+qqpwu92QZXsuBzEMA4Zh
+      2NrFZ/c8cHr9eDwORVGs7t9bze7xt3sdvOkngW82wzASHlYIMa3hbwQ760+Mv137AKZpOn4e
+      OL2+EML2a3xuh/G3ax2ccUcAmqZZC4wsy5AkKeHPMk3TtuSdqC9J0rTGYTomvqFl9zRgffvq
+      T6z+di2DgL3TwOnr4Iw7AnC73Tfss1RVTbgL6UbQNA2Koti68BuGYes0sHseqKoKRVFs2wDY
+      Pf66rkOSJNu6YEzThGmatk0Dp6+DvBcQEZFDOToA7DzsvR3q3w5tYH37lwE72dn9MlHfbraO
+      /0w7B0BERDeGo48AiIicjAFARORQszoAhBAYHh62Hpumiba2NgwMDFhfv4pGo2hubkY4HLa+
+      EieEwODgIDRNm3b9cDiMeDxuPe7v70dbW5v1VVZd19He3o7+/n6rvqqqaGpqwvDw8LS+HyyE
+      gKZp1k32ACAcDqOpqcn6/QUhBPr6+tDe3m59H/l60yRRpmkiGAxajzVNQ3NzM0ZHR615EAwG
+      0dzcbN0XyjRNtLe3T3v8J8YvGAxa09s0TXR1daGnp8f67FgshqamJkQikUnDtLa2TvsutBOf
+      NVHLNE10dHSgr69v0jLY1NQ06XcwhBAYGhqy5tN06kcikUnze3BwEK2trdY0MQwDra2tGBoa
+      stqpaRqampowODg47WVQ13WMjo5az0UiETQ2Nlq/CyKEQE9PDzo7O61lMBaLobm5GaFQKOH6
+      E7U7OjomjcfIyMik8f/k8iaEwMjICNra2qZ9jYBpmujv77fGDRhfv5ubmyeN/8DAADo7O636
+      8XgcbW1tGBkZmfb0D4VCaGlpsbZDE9vBYDAI5cc//vGPpzWGt6lIJIJt27Zh3759uOeeeyCE
+      wLvvvgtN03D+/HnIsoyUlBS89tprSEtLQ01NDQoKCpCamoru7m688MILKCsrQ3p6esJt+OCD
+      D/Duu+9izpw5SE9PR21tLS5duoSxsTFcuHAB8+fPx29/+1sA47e9DgaDyMrKwpYtW+D3+9HT
+      04Pi4uKETxLV19fjnXfeQSgUwrx58zA4OIjt27fD5/Nh//79qKqqwtGjR9Hc3AxVVXH8+HGU
+      lpbi9ddfR1paGg4cOIDi4mL4fL6E6g8MDOCdd97B6dOncccdd0AIgc2bNyMlJQWHDx9GXl4e
+      BgYGcOjQISiKgiNHjqCqqgp79+5FMBhEbW0tMjIyEAgEEqofj8exc+dO7Ny5E6tXr4aiKPjg
+      gw8wNDSElpYWjIyMICsry1oG9u/fj3nz5qG2thYXL15ELBbD0aNHsXTp0oTqq6qKd999Fzt2
+      7MDatWshSRL27NmDUCiEhoYGxGIxBAIBvPHGG/D7/di/fz8WLFgAj8eD4eFhPP/888jPz0d2
+      dnZC9QHg0KFD2L59O3JycpCdnY2LFy+itrYWmqahtrYWixYtwttvvw1JknDq1Cn4fD74/X5s
+      3rx50jKY6NckGxsbsW3bNvT29qKiogIjIyN4++234ff7sXfvXixZsgQnTpxAW1ubtXNUVFSE
+      l19+GYFAAIcPH0ZWVhbS0tKmXNs0TbzyyiuQZRl1dXVwu93QdR27du2CJEk4e/YsFi5ciL17
+      92JkZASnT59GRkYGVFXFzp07AQDnzp3DwoULE1oHhRB477330NfXh97eXjQ2NqKsrAwvvfQS
+      fD4fDh48iIqKCjQ2NuJ3v/sdRkdH0dXVhczMTGzduhWyLOPw4cPIz8+H3++fcv2J9p86dQqG
+      YaCmpgbLli3Drl27EIlEcOrUqZl3HcDnJcsy/viP/xi7d+8GML4x0HUda9euha7reOONN5CT
+      k4Pc3FysWLECqqpiZGQE2dnZOHjwINauXTvtNixbtgypqanW49bWVnz5y1+Gx+PBli1bEI/H
+      IYTAqlWrEAwGcerUKZw9exZr1qxBcXExkpOTp/X95NzcXDz++OOoq6sDMB4yX/jCFzB37lzo
+      um7tBaxevRqBQAAtLS2IRCIoKCjAihUrEIlEMDo6ipycnITqJyUlYdOmTXj33XcBAKFQCJmZ
+      mbjzzjtRWlqKuro6xONxPPjgg/D7/RgeHkZ3dzdGR0fxJ3/yJ4hEIti7d++kmwROhSRJ+OIX
+      v2itvBN71U8++SQMw8CWLVuQkZGBqqoqrFq1Cmlpafjoo4+wcuVKeDwe6LqOV199NaHaE/XX
+      rVtn7UUahoFQKIQHH3zQqp+UlIQVK1Zg+fLl8Hq9uHz5MpYvX469e/di3bp1CdeeUFFRMWnj
+      2dTUhAceeACpqal4/fXXMTY2BlmWsWbNGixduhR79uzB6OgoVq1ahfLyciQlJU3rGoHMzEw8
+      +eSTOHDgAACgpaUFq1atwuLFi6EoCi5fvoy2tjY88cQTkGUZr7zyCmKxGLKysrBixQrrCKq4
+      uHjKtWVZxte//nW4XC7U19djeHgYTU1N2LhxIzIyMvDmm28iHA5fs7ylpqbiS1/6EvLy8rB1
+      61bEYrGEbxexfv16eDwehEIh7N69Gy0tLaisrMQf/dEfAQDa2tpw/vx5bNy4EcnJyXj11Vex
+      du1a/Omf/ql1oevIyAgKCgoSql9RUYFly5bBMAy0tLRYR2MbN27EwMDA7A2A5OTkSff5mVih
+      T548CdM0EQqFkJGRgWAwiFdffRWxWAx//ud/jqNHj2LlypUYGhqadhtycnLQ1NQ06fHBgwet
+      Pd94PI6ioiK89NJLiEQiePLJJ3HixAk0Nzfj0qVLiEaj2LRpU8IXv2VlZU0aj5KSEtTU1GBs
+      bAxtbW1ITk7G8uXL8frrr8Pj8WDFihXIzs7GwMCANU3uuuuuhMf/k3stPp8Pvb29OHv2LIaG
+      hjA6OoqKigp88MEHmDdvHrq7uzFnzhz4fD5IkgSfzzetLhC32z3pCE6SJCQnJ+Po0aPweDwI
+      BoPIzs7GoUOHkJKSgvb2dsiybO2B79y5E2vWrEm4vsfjmXSfI0VR4HK5cPz4cSiKgmAwiPz8
+      fGzbtg0ulwvNzc1ITU3FqVOnsHjx4htye4CcnBx0dXVZj/Pz83Hw4EGUlJRgYGAAqqoiEomg
+      trYWqqoiGAyir68P/f39aGlpQSgUwuOPP46kpKSE6mdmZk7q2iosLMR7770HIQRaWlqsI5OD
+      Bw8iPT0dvb29SE1Nhaqq2Lx5M6LRKL7xjW8kVFuSJLhcLpw6dQrNzc149NFHsWvXLmv5SktL
+      QzAYvGZ5kyTJOupMTk6GpmkJBYAkSXC73Whra0NNTQ2+9KUvoaurC1lZWQDG18+J7kGPx2Nd
+      kCfLMkzTxIcffoiRkRErLBIxET67du3CsmXLYJqmNS4+n2/2BsAnSZKExx57DK2trUhKSoLf
+      70dzczPKyspw991348KFCzhx4gROnjyJiooKtLe3o62tDbm5uTfsZlF333032tvboWkaAoEA
+      JElCb28vvvWtbyEWi2HXrl3IzMzE6tWrkZeXh/fffx8DAwMJp/8nFRUVYcOGDRgYGEBmZibS
+      0tJw/PhxfOtb34LX67W6QubPn481a9bg3LlzOHfuHFauXHlD6iuKgq9+9atoa2tDTk4O4vE4
+      qqqqkJmZaR0dBAIBa6M/caOwG0WSJDz00ENobW2FoigIBAIIBALYtGkTuru7kZ2dDV3X0d/f
+      j+3bt2PTpk039C60kiRh48aNaG1thdvtRiAQQEZGBh599FH09vYiKysLsizj+PHjmDdvHnp7
+      e+FyuVBcXDzpSHI6Vq5cic7OTsRiMaSlpSEQCODxxx9Ha2sr/H4/0tPT4fV6ce+996K4uBhH
+      jhxBZ2cnysvLb0j9nJwcPPTQQ+jr60NWVhYCgQDWrFmD1tZW6/WOjg7k5uZi3bp1aGhoQG1t
+      Le6+++4p1xJCYN++fXC73Xj88cetm85pmgaPx4NIJDJpJ2NieUtKSkI0GrU2/tO5SrehoQGn
+      T5/GV77yFaSkpGB4eNg6JxcOh5GSkgJJkmAYhrXhF0Jg+/btKC4uxj333DOtXoDR0VG8+eab
+      eOihh5CXlwfDMKxzAfF4fPaeBI5Go+jq6kI4HEZXVxcikQj6+/uRlZWFy5cvo6qqCklJSejq
+      6sLAwADa2tqQlpaGp59+Gvfddx8qKyuxcuXKhO8WOnGyceJ3joeHhzE8PGwtVH6/Hx6PB+Fw
+      GL29vWhpaYHL5UJlZSUOHDiAgYEB9PX1Jdz3N3Fiqa+vDyMjI+jt7UUsFkMkEkEgEEBPTw9K
+      SkogSRLa29vR29tr3RlxYpq0t7dPK/xCodCkeaBpGvr6+pCTk4P6+npUVVVZJ5onVrrCwkIY
+      hoHf//732L9/PyorKxOuH4/H0dXVhVAohO7uboTDYQwMDCA9PR1dXV2YO3cuZFnG4OCgtVxM
+      TP9Vq1YhFApZJ+YSoaqqNf7d3d0YGxvDwMAAMjIy0NraigULFgAAhoeHkZmZiaamJlRVVeHb
+      3/421q1bh6VLl2LZsmVISUlJqL5pmujp6cHw8DAGBweto66JDZrX64Xb7UZ/f781T5YsWYIl
+      S5Zg//791onJ6ZwHGxwcRE9PD0ZHR9HT0wNVVa2wb2xsxPz58zE0NITU1FSMjo4iLy8PycnJ
+      6OnpsdbLRNfBWCyGy5cvo7y8HJ2dndYRZ01NDdra2hCNRpGRkQHDMNDY2Ij9+/dj8eLFWLhw
+      IQ4dOmR1iU5nG1BTU4M77rjDWhfLyspQV1eHnp4enDt3DnPmzEFxcTFOnDiBS5cuWUfJIyMj
+      yM3NRUdHh/X76Ik4evQoFi1ahHg8jo6ODitkmpubceTIkdl7IdjQ0BAaGxshhIAkSSgvL0c4
+      HMbvf/97FBcXY+HChQDG++BaWlpQUFCABQsWWP3FAwMD8Hq9CZ8A1XUddXV11sYjOzsbmZmZ
+      qK2tRUpKClauXAmXy4Xh4WGcP38eXq8Xy5cvh8vlQltbGxobG7Fo0SIUFhYmfAKqvr7e2sB6
+      vV4sWrQIp0+fhqqqWLFiBQKBAOLxOM6cOYNYLIbly5fD7/ejtbUVra2tKCwsxPz58xM+Cd3Z
+      2Wn9tKckSaiqqkJrayu6u7uxYMECFBcXIxaL4eTJk5AkCatWrYLX60U0GsWpU6eQnp6Oqqqq
+      hOuHw2FcvHjRql9SUgIhBC5evIicnBxUVVVBlmWcPn0aIyMjqKqqQk5ODhoaGjAyMgJg/Kil
+      uro6oTaMjIzg8uXLVv3S0lJomoZLly4hPz8fFRUV1snXUCiEpUuXIisry6o1PDwMWZYTPglu
+      GAbOnj1rfZMpIyMDeXl5OH36NDweD1atWgWPx4PGxka0tLRg7ty5KC8vhyRJ6OzsxKVLlzBv
+      3jzMmTMn4Xlw+fJl65ssSUlJqKysxJkzZzA2Nobly5cjIyMDg4ODOHv2LAKBAJYvXw5ZltHR
+      0YGmpibk5uZi0aJFCe0Fx2IxnD171mp7UVERCgoKcOnSJfT19WHVqlXw+XzXLG8ArPesXLky
+      4aMv0zRx/vx56wjD7/dj0aJF6O3txcWLF1FRUYH8/HwIIXDmzBlEIhGsXr0akUgEly5dstpd
+      VlaW8BcBmpubMTAwYD1etWqVtc5lZ2fP3gAgIqLPNmu7gIiI6LMxAIiIHIoBQETkUAwAIiKH
+      YgAQETkUA4CIyKEYAEREDuWYW0EQEd3OhBBQVdW6bTQwfj+rcDic0C1JdF0fv92DLCMpKem6
+      F/MxAIiIbgNCCPzrv/4rmpubEY1GkZmZib/6q7/C22+/jX/4h3+Y8ucdOXIEzz//PNLS0pCV
+      lYUf/OAH19zZYNb+HgAR0Uyzdu1a5ObmIhqN4qc//SkyMjIQiUQwb948bNmyBSdOnMDRo0cx
+      MDCArVu3Ijc3F2lpadiyZQt27tyJgoICZGZmAoB1b6Ef/OAHOHbsGNxuN9xuN371q1+hoaEB
+      lZWVPAdARHQ7mLh99cQtod1ut/WjQrqu46233kJFRQXq6+vR1dWF0tJSbN26Fe+//z7a29vx
+      0EMP4T/+4z8m/YpdNBpFb28v+vr64PP58I//+I/YsGGDdYtodgEREc0APp8Pd911Fz788EOs
+      WrUKiqKgsbERly9fRlNTE7Zu3YrR0dFJt7A+duwYgsEgNmzYgJUrV+KHP/wh3nnnHQSDQXg8
+      HgYAEdFMVlZWhlAohKeeegrNzc2TfkBq/fr1ePrpp63HpaWlePDBB1FQUIBQKMRzAEREtxPD
+      MOD1elFeXg4hBDRNw+LFi6GqKpYuXYpYLIbS0tLxX/RyufDAAw+gs7MT+/btg9frRUVFBWRZ
+      hq7r8Pv9mDNnjvXZK1aswI4dO3Du3Lnx25HzdtBERM7Ek8BERA7FACAicigGABGRQ/0/e/6P
+      OCv4mHoAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='384' name='Black Hat (Before)' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
