@@ -1,6 +1,10 @@
 Write-ups:
+Black Hat:
 
 The black hat visualization was deliberately designed to mislead viewers by minimizing the perceived severity of a major environmental issue. The data clearly shows a substantial increase in pollutants entering the atmosphere between 1985 and 1990, with little subsequent decline. A truthful representation would highlight this increase, reinforcing the urgency of the problem. However, the manipulative visualization distorts perception using several techniques. The primary distortion tactic used is extending the y-axis bounds to extreme levels. Instead of setting the axis to a range that makes variations in pollution levels visible, the upper bound is pushed far beyond the actual maximum pollutant value. This causes all data points to cluster near the x-axis, making what should be a sharp upward trend appear as a nearly flat line. By doing so, the visualization gives the false impression that pollution levels have remained constant or negligible, deceiving viewers into thinking there is no urgent environmental concern.
+
+White Hat:
+The dataset represents the average observed values of pollutants emitted by various countries and regional economic groups. It includes emissions data from major economies such as China, the United States, India, and Russia, as well as economic alliances like the OECD (Organisation for Economic Co-operation and Development) and the European Union. By structuring the data into these categories, the visualization provides insights into both national and transnational contributions to pollution. A treemap was chosen as the primary visualization method due to its effectiveness in representing hierarchical and proportional data. Each rectangle’s area corresponds to the pollutant emissions of a specific country or region, making it easy to compare different entities at a glance. This layout ensures that the highest-emitting regions, such as the OECD and China, are immediately noticeable due to their larger areas. Color differentiation plays a critical role in enhancing clarity which helps viewers quickly identify key contributors and understand the relative scale of emissions.
 
 
 NOT FINISHED
